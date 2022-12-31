@@ -117,12 +117,19 @@ h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
 
 .cover-image{min-height: 600px; color: #fff; justify-content: end;}
 .cover-image .cover__content{max-width: 1250px; width: 100%; text-align: left;}
-.cover-image h1{font-size: 2.2rem;}
+.cover-image h1{font-size: 2.5rem;}
 .cover-image h2{font-size: 1.4rem; text-transform: uppercase; font-weight: normal;}
 
 
+.bg-gray{background: #333;}
 
 .bg-dark{background: black;}
+
+/* TILES */
+
+.tiles{min-height: 500px; border-radius: 30px; color: #fff;position: relative; overflow: hidden;}
+.tiles_label{position: absolute; bottom:20px; left: 30px;}
+.tiles__content{background: rgb(255,255,255); padding: 30px; background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); }
 
 /* CARD */
 
